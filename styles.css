@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+}
+.rectangulo_blanco{
+    background-color: white;
+    width: 400px;
+    height: 725px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.encabezado{
+    border: 2px  black;
+    width: 400px;
+    height: 55px ;
+}
+
+.perfil{
+    border: blue 2px;
+    width: 200px;
+    height: 50px;
+}
+.foto_de_perfil{
+    border: orange 2px;
+    width: 50px;
+    height: 50px;
+}
+.perfil_del_usuario{
+    border: orange 2px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+.config{
+    border: blue 2px;
+    width: 200px;
+    height: 50px;
+    justify-content: end;
+    align-items: center;
+}
+.puntitos{
+    border: orange 2px;
+    width: 25px;
+    height: 25px;
+}
+.post{
+    border: black 2px;
+    width: 400px;
+}
+.imagen{
+    border: 2px;
+    width: 400px;
+    height:400px;
+}
+.interactuar{
+    border: blue 2px;
+    width: 400px;
+    height: 55px;
+    background-color: white;
+}
+.lrc{
+    border: orange  2px;
+    width: 200px;
+    height: 55px;
+}
+.report{
+    border: orange  2px;
+    width: 300px;
+    height: 55px;
+    justify-content: end;
+}
+.like{
+    border: purple 2px;
+    width: 25px;
+    height: 55px;
+    align-items: center;
+    padding: 2px;
+}
+.comment{
+    border: purple  2px;
+    width: 25px;
+    height: 55px;
+    align-items: center;
+    padding: 2px;
+}
+.repost{
+    border: purple  2px;
+    width: 25px;
+    height: 55px;
+    align-items: center;
+    padding: 2px;
+}
+.rprt{
+    border: purple  2px;
+    width: 55px;
+    height: 55px;
+}
+.like_img{
+    width: 25px;
+    height: 25px;
+}
+.like_img:active{
+    background-color: red;
+}
+.comment_img{
+    width: 25px;
+    height: 25px;
+}
+.repost_img{
+    width: 25px;
+    height: 25px;
+}
+.texto{
+    border: red 2px;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+.le_gusta_a{
+    font-size: 12px;
+}
+.hashtags{
+    color: rgb(21, 21, 131);
+    text-underline-position: auto;
+    font-size: 14px;
+}
+.comentario_principal{
+    font-size: 14px;
+}
